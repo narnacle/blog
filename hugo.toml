@@ -1,0 +1,23 @@
+baseURL = 'https://howto100.guide/'
+languageCode = 'en-us'
+title = 'How to 100%'
+theme = "paper"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'NRPerfectsIt'               # twitter.com/YOUR_TWITTER_ID
+  github = 'narnacle'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'thatoneperfectionist'           # instagram.com/YOUR_INSTAGRAM_ID
+  #linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  #mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  #threads = '@YOUR_THREADS_ID'              # threads.net/@YOUR_THREADS_ID
+  #bluesky = 'YOUR_BLUESKY_ID'               # https://bsky.app/profile/YOUR_BLUESKY_ID
+  #rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'nandor.me@gmail.com'                 # gravatar email or image url
+  name = 'The Perfectionist'
+  bio = "Don't simply beat games, complete 'em. 100%"
