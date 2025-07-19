@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Narnacle&#39;s Dev Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Narnacle&#39;s Dev Blog</description>
+    <image>
+      <url>http://localhost:1313/narnacle.png</url>
+      <link>http://localhost:1313/narnacle.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry Pi W Surveillance Camera</title>
+      <link>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</link>
+      <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</guid>
+      <description>&lt;p&gt;Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&amp;rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt; (any model, but newer models will perform better)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raspberry Pi Camera Module&lt;/strong&gt; (or a compatible USB camera)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:</p>
+<h3 id="requirements">Requirements:</h3>
+<ul>
+<li>
+<p><strong>Raspberry Pi</strong> (any model, but newer models will perform better)</p>
+</li>
+<li>
+<p><strong>Raspberry Pi Camera Module</strong> (or a compatible USB camera)</p>
+</li>
+<li>
+<p><strong>MicroSD card</strong> (at least 8GB, preferably 16GB or higher)</p>
+</li>
+<li>
+<p><strong>Raspberry Pi OS</strong> installed on the SD card</p>
+</li>
+<li>
+<p><strong>Power supply</strong> for your Raspberry Pi</p>
+</li>
+<li>
+<p><strong>Wi-Fi</strong> or <strong>Ethernet</strong> connection for network access (if remote access is needed)</p>
+</li>
+<li>
+<p><strong>Optional</strong>: Motion sensors or PIR (Passive InfraRed) sensor for motion detection</p>
+</li>
+</ul>
+<h3 id="basic-steps-to-set-up-the-camera">Basic Steps to Set Up the Camera:</h3>
+<ol>
+<li>
+<p><strong>Install Raspberry Pi OS</strong>:</p>
+<ul>
+<li>If you don’t already have the Raspberry Pi OS on your microSD card, use <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a> to install it. Choose the &ldquo;Raspberry Pi OS&rdquo; option and follow the prompts.</li>
+</ul>
+</li>
+<li>
+<p><strong>Connect the Camera Module</strong>:</p>
+<ul>
+<li>
+<p>Attach the <strong>Raspberry Pi Camera Module</strong> to the <strong>camera port</strong> on the Raspberry Pi. If you&rsquo;re using a USB camera, plug it into one of the USB ports.</p>
+</li>
+<li>
+<p>To enable the camera, run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo raspi-config
+</span></span></code></pre></div><ul>
+<li>
+<p>Navigate to <strong>Interfacing Options</strong> &gt; <strong>Camera</strong> &gt; <strong>Enable</strong>.</p>
+</li>
+<li>
+<p>Reboot the Pi:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Install MotionEye for Video Streaming</strong>:</p>
+<ul>
+<li>
+<p><strong>MotionEye</strong> is a popular software package that allows you to turn your Raspberry Pi into an IP camera with features like motion detection, email alerts, and streaming.</p>
+<p>To install <strong>MotionEye</strong>, run the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install motion
+</span></span><span style="display:flex;"><span>sudo apt install libffi-dev libssl-dev python-dev python-pip
+</span></span><span style="display:flex;"><span>sudo pip install motioneye
+</span></span><span style="display:flex;"><span>sudo mkdir -p /etc/motioneye
+</span></span><span style="display:flex;"><span>sudo cp -R /usr/local/lib/python2.7/dist-packages/motioneye/ /etc/motioneye
+</span></span></code></pre></div><p>Then, enable and start the service:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable motioneye
+</span></span><span style="display:flex;"><span>sudo systemctl start motioneye
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Configure MotionEye</strong>:</p>
+<ul>
+<li>
+<p>Open your browser and go to your Raspberry Pi’s IP address on port 8765. For example:</p>
+<pre tabindex="0"><code>http://&lt;your_pi_ip&gt;:8765
+</code></pre></li>
+<li>
+<p>You&rsquo;ll be prompted with a login screen:</p>
+<ul>
+<li>
+<p><strong>Username</strong>: admin</p>
+</li>
+<li>
+<p><strong>Password</strong>: (leave it blank by default)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Once logged in, you can configure various settings such as resolution, frame rate, motion detection, and storage options (e.g., save video clips or snapshots).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessing Your Camera Remotely</strong>:</p>
+<ul>
+<li>If you want to view the camera stream remotely, make sure the Raspberry Pi is connected to the internet and use either a <strong>local network</strong> or <strong>VPN</strong> to access the camera from outside your home. If you want to use port forwarding, forward port 8765 to your Pi’s IP address.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optional – Add Motion Detection</strong>:</p>
+<ul>
+<li>
+<p>You can configure motion detection using the <strong>MotionEye</strong> interface.</p>
+</li>
+<li>
+<p>Set up email alerts, FTP uploads, or even record video clips when motion is detected.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="optional-enhancements">Optional Enhancements:</h3>
+<ul>
+<li>
+<p><strong>Add PIR Sensors for Motion Detection</strong>:</p>
+<ul>
+<li>For a more energy-efficient setup, you can add a <strong>PIR sensor</strong> to only activate the camera when motion is detected.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cloud Storage</strong>:</p>
+<ul>
+<li>You can configure MotionEye to upload snapshots or videos to cloud storage services like <strong>Dropbox</strong> or <strong>Google Drive</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Night Vision</strong>:</p>
+<ul>
+<li>If you&rsquo;re using the official camera module, consider getting a <strong>Night Vision</strong> camera or add IR lights for nighttime monitoring.</li>
+</ul>
+</li>
+<li>
+<p><strong>Powering the Pi</strong>:</p>
+<ul>
+<li>If you want to place your Raspberry Pi outside or somewhere that doesn&rsquo;t have easy access to power, consider using a <strong>portable power bank</strong> or <strong>solar panel</strong> to keep it running.</li>
+</ul>
+</li>
+</ul>
+<h3 id="possible-alternatives">Possible Alternatives:</h3>
+<ul>
+<li>
+<p><strong>OpenCV</strong>: If you&rsquo;re interested in more advanced features like object detection, face recognition, or analyzing the video feed, you could use <strong>OpenCV</strong> on the Raspberry Pi for these capabilities.</p>
+</li>
+<li>
+<p><strong>Home Assistant</strong>: For integration with home automation, <strong>Home Assistant</strong> offers various ways to add a camera feed and even automate actions based on motion detection.</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>How Secure Shell Works (SSH)</title>
+      <link>http://localhost:1313/posts/how-secure-shell-works/</link>
+      <pubDate>Fri, 18 Jul 2025 14:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-secure-shell-works/</guid>
+      <description>&lt;p&gt;SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:&lt;/p&gt;
+&lt;h3 id=&#34;1-client-and-server&#34;&gt;1. &lt;strong&gt;Client and Server&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: The system trying to access another system remotely. Usually, you run an SSH client (like &lt;code&gt;ssh&lt;/code&gt; on Unix/Linux or PuTTY on Windows).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: The remote system that the client wants to connect to, which runs an SSH server (like &lt;code&gt;sshd&lt;/code&gt; on Unix/Linux).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-initiating-the-connection&#34;&gt;2. &lt;strong&gt;Initiating the Connection&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).&lt;/li&gt;
+&lt;li&gt;The server then responds by sending its public key to the client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-key-exchange-and-authentication&#34;&gt;3. &lt;strong&gt;Key Exchange and Authentication&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Key Exchange&lt;/strong&gt;: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:</p>
+<h3 id="1-client-and-server">1. <strong>Client and Server</strong></h3>
+<ul>
+<li><strong>Client</strong>: The system trying to access another system remotely. Usually, you run an SSH client (like <code>ssh</code> on Unix/Linux or PuTTY on Windows).</li>
+<li><strong>Server</strong>: The remote system that the client wants to connect to, which runs an SSH server (like <code>sshd</code> on Unix/Linux).</li>
+</ul>
+<h3 id="2-initiating-the-connection">2. <strong>Initiating the Connection</strong></h3>
+<ul>
+<li>When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).</li>
+<li>The server then responds by sending its public key to the client.</li>
+</ul>
+<h3 id="3-key-exchange-and-authentication">3. <strong>Key Exchange and Authentication</strong></h3>
+<ul>
+<li>
+<p><strong>Key Exchange</strong>: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.</p>
+</li>
+<li>
+<p><strong>Server Authentication</strong>: The client checks the server’s public key to ensure it is connecting to the right system. This prevents Man-in-the-Middle (MITM) attacks.</p>
+</li>
+<li>
+<p><strong>Client Authentication</strong>: The client must authenticate itself to the server. There are two main ways to do this:</p>
+<ol>
+<li><strong>Password-based authentication</strong>: The client provides a password to authenticate itself.</li>
+<li><strong>Key-based authentication</strong>: The client uses a pair of cryptographic keys—public and private keys. The public key is stored on the server, and the private key remains with the client. The server sends a challenge to the client, which can only be answered correctly by the private key holder, ensuring secure authentication.</li>
+</ol>
+</li>
+</ul>
+<h3 id="4-encrypted-communication">4. <strong>Encrypted Communication</strong></h3>
+<ul>
+<li>Once authentication is successful, both the client and the server agree on a shared symmetric encryption key that will be used for the session.</li>
+<li>From this point onward, all data exchanged between the client and the server is encrypted using this shared key, ensuring confidentiality and integrity.</li>
+</ul>
+<h3 id="5-session-termination">5. <strong>Session Termination</strong></h3>
+<ul>
+<li>Once the task is complete, the client can disconnect from the server, and the SSH session is terminated. The session key used for encryption is discarded, ensuring that future sessions require fresh key exchanges.</li>
+</ul>
+<h3 id="key-components-of-ssh">Key Components of SSH:</h3>
+<ul>
+<li><strong>Public Key Cryptography</strong>: Used for both server authentication and client authentication (when using key pairs).</li>
+<li><strong>Encryption</strong>: Ensures that all communication between the client and server is secure and cannot be easily intercepted or tampered with.</li>
+<li><strong>Integrity</strong>: Ensures that the data is not altered during transmission.</li>
+</ul>
+<h3 id="ssh-use-cases">SSH Use Cases:</h3>
+<ul>
+<li><strong>Remote Login</strong>: The most common use case—logging into a remote system to manage it.</li>
+<li><strong>File Transfer</strong>: Tools like <code>SFTP</code> (SSH File Transfer Protocol) and <code>SCP</code> (Secure Copy Protocol) allow secure file transfer over SSH.</li>
+<li><strong>Port Forwarding</strong>: SSH can be used to forward network traffic securely from one system to another, which is helpful in tunneling.</li>
+<li><strong>Automation/Scripts</strong>: SSH is widely used in scripts and automation for managing remote servers, like in DevOps or system administration.</li>
+</ul>
+<p>In essence, SSH provides a secure way to manage remote systems by using encryption to protect the data being transmitted and ensuring both the client and server are properly authenticated.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Python Selenium Tutorial - Automate Websites and Create Bots</title>
+      <link>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</link>
+      <pubDate>Thu, 17 Jul 2025 14:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</guid>
+      <description>&lt;p&gt;Automating a web browser with Selenium allows you to control a browser (like Chrome, Firefox, etc.) using Python code. This is useful for tasks like web scraping, testing, or automating repetitive tasks like filling out forms or interacting with web elements.&lt;/p&gt;
+&lt;p&gt;Here’s a basic guide to get you started:&lt;/p&gt;
+&lt;h3 id=&#34;1-set-up-your-environment&#34;&gt;1. &lt;strong&gt;Set up your environment&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To use Selenium with Python, you&amp;rsquo;ll need to install the &lt;code&gt;selenium&lt;/code&gt; package and a web driver for the browser you want to control.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Automating a web browser with Selenium allows you to control a browser (like Chrome, Firefox, etc.) using Python code. This is useful for tasks like web scraping, testing, or automating repetitive tasks like filling out forms or interacting with web elements.</p>
+<p>Here’s a basic guide to get you started:</p>
+<h3 id="1-set-up-your-environment">1. <strong>Set up your environment</strong></h3>
+<p>To use Selenium with Python, you&rsquo;ll need to install the <code>selenium</code> package and a web driver for the browser you want to control.</p>
+<h4 id="install-selenium">Install Selenium:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install selenium
+</span></span></code></pre></div><h4 id="download-a-webdriver">Download a WebDriver:</h4>
+<ul>
+<li>
+<p><strong>Chrome</strong>: You need to download <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads">ChromeDriver</a>.</p>
+</li>
+<li>
+<p><strong>Firefox</strong>: You can use <a href="https://github.com/mozilla/geckodriver/releases">geckodriver</a>.</p>
+</li>
+</ul>
+<p>Make sure to place the WebDriver in a location that’s part of your system&rsquo;s <code>PATH</code> or specify the path directly in your script.</p>
+<h3 id="2-basic-example">2. <strong>Basic Example</strong></h3>
+<p>Below is a simple example to open a browser, navigate to a page, and interact with elements:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium <span style="color:#f92672">import</span> webdriver
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.common.by <span style="color:#f92672">import</span> By
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.common.keys <span style="color:#f92672">import</span> Keys
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Set up the WebDriver (assuming using Chrome)</span>
+</span></span><span style="display:flex;"><span>driver <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome(executable_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;/path/to/chromedriver&#39;</span>)  <span style="color:#75715e"># Adjust the path if necessary</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Open a website</span>
+</span></span><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://www.google.com&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Find the search box and type something</span>
+</span></span><span style="display:flex;"><span>search_box <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>find_element(By<span style="color:#f92672">.</span>NAME, <span style="color:#e6db74">&#34;q&#34;</span>)
+</span></span><span style="display:flex;"><span>search_box<span style="color:#f92672">.</span>send_keys(<span style="color:#e6db74">&#34;Selenium Python&#34;</span>)
+</span></span><span style="display:flex;"><span>search_box<span style="color:#f92672">.</span>send_keys(Keys<span style="color:#f92672">.</span>RETURN)  <span style="color:#75715e"># Simulate hitting Enter</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Wait for the results to load (you can also use WebDriverWait for more precision)</span>
+</span></span><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>implicitly_wait(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Perform actions on the result (e.g., click a link)</span>
+</span></span><span style="display:flex;"><span>first_result <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>find_element(By<span style="color:#f92672">.</span>CSS_SELECTOR, <span style="color:#e6db74">&#34;.LC20lb&#34;</span>)
+</span></span><span style="display:flex;"><span>first_result<span style="color:#f92672">.</span>click()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Close the browser after some time</span>
+</span></span><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>quit()
+</span></span></code></pre></div><h3 id="3-important-concepts-in-selenium">3. <strong>Important Concepts in Selenium:</strong></h3>
+<ul>
+<li>
+<p><strong>WebDriver</strong>: The core component to interact with the browser.</p>
+</li>
+<li>
+<p><strong>Locating Elements</strong>: You can find elements on a page using different strategies like <code>find_element_by_id</code>, <code>find_element_by_class_name</code>, <code>find_element_by_xpath</code>, etc. The example above uses <code>By.NAME</code> and <code>By.CSS_SELECTOR</code>.</p>
+</li>
+<li>
+<p><strong>Interactions</strong>: You can simulate actions like <code>send_keys</code> (typing), <code>click()</code>, <code>submit()</code>, etc.</p>
+</li>
+<li>
+<p><strong>Waiting</strong>: Selenium can wait for elements to appear using <code>implicitly_wait()</code>, or for more fine-tuned control, use <code>WebDriverWait</code> and expected conditions.</p>
+</li>
+</ul>
+<h3 id="4-handling-popups-and-alerts">4. <strong>Handling Popups and Alerts:</strong></h3>
+<p>To handle popups or JavaScript alerts, you can use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Accept an alert</span>
+</span></span><span style="display:flex;"><span>alert <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>switch_to<span style="color:#f92672">.</span>alert
+</span></span><span style="display:flex;"><span>alert<span style="color:#f92672">.</span>accept()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Dismiss an alert</span>
+</span></span><span style="display:flex;"><span>alert<span style="color:#f92672">.</span>dismiss()
+</span></span></code></pre></div><h3 id="5-advanced-features">5. <strong>Advanced Features:</strong></h3>
+<ul>
+<li><strong>Taking screenshots</strong>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>save_screenshot(<span style="color:#e6db74">&#34;screenshot.png&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Executing JavaScript</strong>: You can execute custom JavaScript in the browser:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>execute_script(<span style="color:#e6db74">&#34;alert(&#39;Hello, world!&#39;)&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Handling multiple windows</strong>: If your script opens multiple tabs/windows, you can switch between them using <code>driver.switch_to.window(window_handle)</code>.</li>
+</ul>
+<h3 id="6-headless-mode-optional">6. <strong>Headless Mode (Optional)</strong></h3>
+<p>If you don&rsquo;t want the browser to open visibly, you can run the browser in &ldquo;headless&rdquo; mode. For Chrome, it looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.chrome.options <span style="color:#f92672">import</span> Options
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>options <span style="color:#f92672">=</span> Options()
+</span></span><span style="display:flex;"><span>options<span style="color:#f92672">.</span>headless <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>  <span style="color:#75715e"># Run in headless mode</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>driver <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome(executable_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;/path/to/chromedriver&#39;</span>, options<span style="color:#f92672">=</span>options)
+</span></span></code></pre></div><h3 id="7-troubleshooting">7. <strong>Troubleshooting</strong></h3>
+<ul>
+<li>
+<p><strong>Element not found</strong>: Check if the page is fully loaded. Use <code>WebDriverWait</code> for dynamic content.</p>
+</li>
+<li>
+<p><strong>Version mismatch</strong>: Ensure your WebDriver matches your browser version.</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
