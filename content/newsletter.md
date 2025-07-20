@@ -53,12 +53,12 @@ Join my weekly roundup, where I’ll share what I’ve been up to that week, inc
 </style>
 
 <form method="post" action="https://newsletter.narnacle.com/subscription/form" class="listmonk-form">
-    <h3>Subscribe</h3>
-    <input type="hidden" name="nonce" />
-    <p><input type="email" name="email" required placeholder="E-mail" /></p>
-    <p>
-        <input id="78a75" type="checkbox" name="l" checked value="78a75b30-472d-4790-a5d5-7f2ed49662a4" />
-        <label for="78a75">Weekly Roundup</label>
-    </p>
-    <p><input type="submit" value="Subscribe" /></p>
+  <h3>Subscribe</h3>
+  <input type="hidden" name="nonce" />
+  <p><input type="email" name="email" required placeholder="E-mail" /></p>
+  <p>
+    <input id="359d7" type="checkbox" name="l" checked value="359d736b-cfe0-40af-8226-ceed5c992e81" />
+    <label for="359d7">Weekly Roundup</label>
+  </p>
+  <input type="submit" value="Subscribe " />
 </form>

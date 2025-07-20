@@ -23,5 +23,4 @@ You can reach me on various platforms:
 - **Twitter:** `@narnacle`
 - **Email:** `narnacle [at] proton [dot] me`
 - **Shitposting Email:** `narnacle [at] horsefucker [dot] org`
-- **Signal:** `narnacle.69` ([Link](https://signal.me/#eu/yLATcXczmtO-VimtMwpkJQKJSeyNppqP_H-742eUxPL1TLezxCxMSqZJR2QD4lqY))
-- **Matrix:** `narnacle:monero.social`
+- **Signal:** `narnacle.69` ([Link](https://signal.me/#eu/YMviNzLjsLhG-_8aMcv9amemvdoBIFpWauDKSJX_AGFh2yOog5hCzZiVzkN2QNiP))
