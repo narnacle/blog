@@ -8,8 +8,57 @@
     <language>en-US</language>
     <managingEditor>narnacle@proton.me</managingEditor>
     <webMaster>narnacle@proton.me</webMaster>
-    <lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jul 2025 14:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rpi</title>
+      <link>http://localhost:1313/tags/rpi/</link>
+      <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/rpi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selfhosting</title>
+      <link>http://localhost:1313/tags/selfhosting/</link>
+      <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/selfhosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssh</title>
+      <link>http://localhost:1313/tags/ssh/</link>
+      <pubDate>Fri, 18 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
+      <pubDate>Thu, 17 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/tags/programming/</link>
+      <pubDate>Thu, 17 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Thu, 17 Jul 2025 14:00:00 +0300</pubDate><author>narnacle@proton.me</author>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Moonwalk</title>
       <link>http://localhost:1313/tags/moonwalk/</link>
