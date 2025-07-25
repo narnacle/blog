@@ -1,19 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ssh on Narnacle&#39;s Dev Blog</title>
-    <link>https://narnacle.com/tags/ssh/</link>
+    <link>http://localhost:1313/tags/ssh/</link>
     <description>Recent content in Ssh on Narnacle&#39;s Dev Blog</description>
-    <generator>Hugo</generator>
+    <image>
+      <url>http://localhost:1313/narnacle.png</url>
+      <link>http://localhost:1313/narnacle.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Jul 2025 14:00:00 +0300</lastBuildDate>
-    <atom:link href="https://narnacle.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Secure Shell Works (SSH)</title>
-      <link>https://narnacle.com/posts/how-secure-shell-works/</link>
+      <link>http://localhost:1313/posts/how-secure-shell-works/</link>
       <pubDate>Fri, 18 Jul 2025 14:00:00 +0300</pubDate>
-      <guid>https://narnacle.com/posts/how-secure-shell-works/</guid>
-      <description>&lt;p&gt;SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-client-and-server&#34;&gt;1. &lt;strong&gt;Client and Server&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: The system trying to access another system remotely. Usually, you run an SSH client (like &lt;code&gt;ssh&lt;/code&gt; on Unix/Linux or PuTTY on Windows).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: The remote system that the client wants to connect to, which runs an SSH server (like &lt;code&gt;sshd&lt;/code&gt; on Unix/Linux).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-initiating-the-connection&#34;&gt;2. &lt;strong&gt;Initiating the Connection&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).&lt;/li&gt;&#xA;&lt;li&gt;The server then responds by sending its public key to the client.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-key-exchange-and-authentication&#34;&gt;3. &lt;strong&gt;Key Exchange and Authentication&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Exchange&lt;/strong&gt;: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.&lt;/p&gt;</description>
+      
+      <guid>http://localhost:1313/posts/how-secure-shell-works/</guid>
+      <description>&lt;p&gt;SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:&lt;/p&gt;
+&lt;h3 id=&#34;1-client-and-server&#34;&gt;1. &lt;strong&gt;Client and Server&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: The system trying to access another system remotely. Usually, you run an SSH client (like &lt;code&gt;ssh&lt;/code&gt; on Unix/Linux or PuTTY on Windows).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: The remote system that the client wants to connect to, which runs an SSH server (like &lt;code&gt;sshd&lt;/code&gt; on Unix/Linux).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-initiating-the-connection&#34;&gt;2. &lt;strong&gt;Initiating the Connection&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).&lt;/li&gt;
+&lt;li&gt;The server then responds by sending its public key to the client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-key-exchange-and-authentication&#34;&gt;3. &lt;strong&gt;Key Exchange and Authentication&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Key Exchange&lt;/strong&gt;: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:</p>
+<h3 id="1-client-and-server">1. <strong>Client and Server</strong></h3>
+<ul>
+<li><strong>Client</strong>: The system trying to access another system remotely. Usually, you run an SSH client (like <code>ssh</code> on Unix/Linux or PuTTY on Windows).</li>
+<li><strong>Server</strong>: The remote system that the client wants to connect to, which runs an SSH server (like <code>sshd</code> on Unix/Linux).</li>
+</ul>
+<h3 id="2-initiating-the-connection">2. <strong>Initiating the Connection</strong></h3>
+<ul>
+<li>When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).</li>
+<li>The server then responds by sending its public key to the client.</li>
+</ul>
+<h3 id="3-key-exchange-and-authentication">3. <strong>Key Exchange and Authentication</strong></h3>
+<ul>
+<li>
+<p><strong>Key Exchange</strong>: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.</p>
+</li>
+<li>
+<p><strong>Server Authentication</strong>: The client checks the server’s public key to ensure it is connecting to the right system. This prevents Man-in-the-Middle (MITM) attacks.</p>
+</li>
+<li>
+<p><strong>Client Authentication</strong>: The client must authenticate itself to the server. There are two main ways to do this:</p>
+<ol>
+<li><strong>Password-based authentication</strong>: The client provides a password to authenticate itself.</li>
+<li><strong>Key-based authentication</strong>: The client uses a pair of cryptographic keys—public and private keys. The public key is stored on the server, and the private key remains with the client. The server sends a challenge to the client, which can only be answered correctly by the private key holder, ensuring secure authentication.</li>
+</ol>
+</li>
+</ul>
+<h3 id="4-encrypted-communication">4. <strong>Encrypted Communication</strong></h3>
+<ul>
+<li>Once authentication is successful, both the client and the server agree on a shared symmetric encryption key that will be used for the session.</li>
+<li>From this point onward, all data exchanged between the client and the server is encrypted using this shared key, ensuring confidentiality and integrity.</li>
+</ul>
+<h3 id="5-session-termination">5. <strong>Session Termination</strong></h3>
+<ul>
+<li>Once the task is complete, the client can disconnect from the server, and the SSH session is terminated. The session key used for encryption is discarded, ensuring that future sessions require fresh key exchanges.</li>
+</ul>
+<h3 id="key-components-of-ssh">Key Components of SSH:</h3>
+<ul>
+<li><strong>Public Key Cryptography</strong>: Used for both server authentication and client authentication (when using key pairs).</li>
+<li><strong>Encryption</strong>: Ensures that all communication between the client and server is secure and cannot be easily intercepted or tampered with.</li>
+<li><strong>Integrity</strong>: Ensures that the data is not altered during transmission.</li>
+</ul>
+<h3 id="ssh-use-cases">SSH Use Cases:</h3>
+<ul>
+<li><strong>Remote Login</strong>: The most common use case—logging into a remote system to manage it.</li>
+<li><strong>File Transfer</strong>: Tools like <code>SFTP</code> (SSH File Transfer Protocol) and <code>SCP</code> (Secure Copy Protocol) allow secure file transfer over SSH.</li>
+<li><strong>Port Forwarding</strong>: SSH can be used to forward network traffic securely from one system to another, which is helpful in tunneling.</li>
+<li><strong>Automation/Scripts</strong>: SSH is widely used in scripts and automation for managing remote servers, like in DevOps or system administration.</li>
+</ul>
+<p>In essence, SSH provides a secure way to manage remote systems by using encryption to protect the data being transmitted and ensuring both the client and server are properly authenticated.</p>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

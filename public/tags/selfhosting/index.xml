@@ -1,19 +1,181 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Selfhosting on Narnacle&#39;s Dev Blog</title>
-    <link>https://narnacle.com/tags/selfhosting/</link>
+    <link>http://localhost:1313/tags/selfhosting/</link>
     <description>Recent content in Selfhosting on Narnacle&#39;s Dev Blog</description>
-    <generator>Hugo</generator>
+    <image>
+      <url>http://localhost:1313/narnacle.png</url>
+      <link>http://localhost:1313/narnacle.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jul 2025 14:00:00 +0300</lastBuildDate>
-    <atom:link href="https://narnacle.com/tags/selfhosting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/selfhosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi W Surveillance Camera</title>
-      <link>https://narnacle.com/posts/raspberry-pi-w-surveillance-camera/</link>
+      <link>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</link>
       <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate>
-      <guid>https://narnacle.com/posts/raspberry-pi-w-surveillance-camera/</guid>
-      <description>&lt;p&gt;Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&amp;rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:&lt;/p&gt;&#xA;&lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt; (any model, but newer models will perform better)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Raspberry Pi Camera Module&lt;/strong&gt; (or a compatible USB camera)&lt;/p&gt;</description>
+      
+      <guid>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</guid>
+      <description>&lt;p&gt;Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&amp;rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt; (any model, but newer models will perform better)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raspberry Pi Camera Module&lt;/strong&gt; (or a compatible USB camera)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:</p>
+<h3 id="requirements">Requirements:</h3>
+<ul>
+<li>
+<p><strong>Raspberry Pi</strong> (any model, but newer models will perform better)</p>
+</li>
+<li>
+<p><strong>Raspberry Pi Camera Module</strong> (or a compatible USB camera)</p>
+</li>
+<li>
+<p><strong>MicroSD card</strong> (at least 8GB, preferably 16GB or higher)</p>
+</li>
+<li>
+<p><strong>Raspberry Pi OS</strong> installed on the SD card</p>
+</li>
+<li>
+<p><strong>Power supply</strong> for your Raspberry Pi</p>
+</li>
+<li>
+<p><strong>Wi-Fi</strong> or <strong>Ethernet</strong> connection for network access (if remote access is needed)</p>
+</li>
+<li>
+<p><strong>Optional</strong>: Motion sensors or PIR (Passive InfraRed) sensor for motion detection</p>
+</li>
+</ul>
+<h3 id="basic-steps-to-set-up-the-camera">Basic Steps to Set Up the Camera:</h3>
+<ol>
+<li>
+<p><strong>Install Raspberry Pi OS</strong>:</p>
+<ul>
+<li>If you don’t already have the Raspberry Pi OS on your microSD card, use <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a> to install it. Choose the &ldquo;Raspberry Pi OS&rdquo; option and follow the prompts.</li>
+</ul>
+</li>
+<li>
+<p><strong>Connect the Camera Module</strong>:</p>
+<ul>
+<li>
+<p>Attach the <strong>Raspberry Pi Camera Module</strong> to the <strong>camera port</strong> on the Raspberry Pi. If you&rsquo;re using a USB camera, plug it into one of the USB ports.</p>
+</li>
+<li>
+<p>To enable the camera, run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo raspi-config
+</span></span></code></pre></div><ul>
+<li>
+<p>Navigate to <strong>Interfacing Options</strong> &gt; <strong>Camera</strong> &gt; <strong>Enable</strong>.</p>
+</li>
+<li>
+<p>Reboot the Pi:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Install MotionEye for Video Streaming</strong>:</p>
+<ul>
+<li>
+<p><strong>MotionEye</strong> is a popular software package that allows you to turn your Raspberry Pi into an IP camera with features like motion detection, email alerts, and streaming.</p>
+<p>To install <strong>MotionEye</strong>, run the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install motion
+</span></span><span style="display:flex;"><span>sudo apt install libffi-dev libssl-dev python-dev python-pip
+</span></span><span style="display:flex;"><span>sudo pip install motioneye
+</span></span><span style="display:flex;"><span>sudo mkdir -p /etc/motioneye
+</span></span><span style="display:flex;"><span>sudo cp -R /usr/local/lib/python2.7/dist-packages/motioneye/ /etc/motioneye
+</span></span></code></pre></div><p>Then, enable and start the service:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable motioneye
+</span></span><span style="display:flex;"><span>sudo systemctl start motioneye
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Configure MotionEye</strong>:</p>
+<ul>
+<li>
+<p>Open your browser and go to your Raspberry Pi’s IP address on port 8765. For example:</p>
+<pre tabindex="0"><code>http://&lt;your_pi_ip&gt;:8765
+</code></pre></li>
+<li>
+<p>You&rsquo;ll be prompted with a login screen:</p>
+<ul>
+<li>
+<p><strong>Username</strong>: admin</p>
+</li>
+<li>
+<p><strong>Password</strong>: (leave it blank by default)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Once logged in, you can configure various settings such as resolution, frame rate, motion detection, and storage options (e.g., save video clips or snapshots).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessing Your Camera Remotely</strong>:</p>
+<ul>
+<li>If you want to view the camera stream remotely, make sure the Raspberry Pi is connected to the internet and use either a <strong>local network</strong> or <strong>VPN</strong> to access the camera from outside your home. If you want to use port forwarding, forward port 8765 to your Pi’s IP address.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optional – Add Motion Detection</strong>:</p>
+<ul>
+<li>
+<p>You can configure motion detection using the <strong>MotionEye</strong> interface.</p>
+</li>
+<li>
+<p>Set up email alerts, FTP uploads, or even record video clips when motion is detected.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="optional-enhancements">Optional Enhancements:</h3>
+<ul>
+<li>
+<p><strong>Add PIR Sensors for Motion Detection</strong>:</p>
+<ul>
+<li>For a more energy-efficient setup, you can add a <strong>PIR sensor</strong> to only activate the camera when motion is detected.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cloud Storage</strong>:</p>
+<ul>
+<li>You can configure MotionEye to upload snapshots or videos to cloud storage services like <strong>Dropbox</strong> or <strong>Google Drive</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Night Vision</strong>:</p>
+<ul>
+<li>If you&rsquo;re using the official camera module, consider getting a <strong>Night Vision</strong> camera or add IR lights for nighttime monitoring.</li>
+</ul>
+</li>
+<li>
+<p><strong>Powering the Pi</strong>:</p>
+<ul>
+<li>If you want to place your Raspberry Pi outside or somewhere that doesn&rsquo;t have easy access to power, consider using a <strong>portable power bank</strong> or <strong>solar panel</strong> to keep it running.</li>
+</ul>
+</li>
+</ul>
+<h3 id="possible-alternatives">Possible Alternatives:</h3>
+<ul>
+<li>
+<p><strong>OpenCV</strong>: If you&rsquo;re interested in more advanced features like object detection, face recognition, or analyzing the video feed, you could use <strong>OpenCV</strong> on the Raspberry Pi for these capabilities.</p>
+</li>
+<li>
+<p><strong>Home Assistant</strong>: For integration with home automation, <strong>Home Assistant</strong> offers various ways to add a camera feed and even automate actions based on motion detection.</p>
+</li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

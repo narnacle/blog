@@ -1,0 +1,26 @@
+author = 'Narnacle'
+
+[home]
+	date_format = '2006-01-02'
+	portfolio = true
+    portfolio_title = "🚀 Projects"
+	blog = true
+    blog_title = "✍️ Writings"
+	old_projects = true
+    old_projects_title = "🕰️ Time Capsule"
+
+[blog]
+	date_format = '2006-01-02'
+	[blog.posts]
+		date_format = ':date_long'
+
+[socials]
+	[socials.1]
+		title = 'github'
+		url = 'https://github.com/narnacle'
+	[socials.2]
+		title = 'mastadon'
+		url = 'https://tilde.zone/@narnacle'
+	[socials.3]
+		title = 'website'
+		url = 'https://www.narnacle.com'

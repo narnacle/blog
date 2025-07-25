@@ -1,0 +1,54 @@
+[projects]
+	[projects.1]
+		title = 'Cityscape Animation'
+		url = 'https://example.com'
+		description = """
+![Futuristic cityscape](https://images.pexels.com/photos/33115247/pexels-photo-33115247.jpeg)
+**Author:** PixelForge Studio
+**Price:** $199
+"""
+
+	[projects.2]
+		title = 'Minimalist UI Kit'
+		url = 'https://example.com'
+		description = """
+![Laptop with code](https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg)
+**Author:** DesignHive  
+**Price:** Free (Open Source)
+"""
+	[projects.3]
+		title = 'EcoTracker App'
+		url = 'https://example.com'
+		description = """
+![Hand holding a leaf](https://images.pexels.com/photos/3933393/pexels-photo-3933393.jpeg)
+**Author:** GreenDev  
+**Price:** $4.99/month
+"""
+		status = 'WIP'
+	[projects.4]
+		title = '3D Character Rigging Toolkit'
+		url = 'https://example.com'
+		description = """
+![VR headset user](https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg)
+**Author:** Animatic Labs  
+**Price:** $149 (One-time)
+"""
+		status = 'On Hold'
+	[projects.5]
+		title = 'Podcast Sound Pack'
+		url = 'https://example.com'
+		description = """
+![Microphone close-up](https://images.pexels.com/photos/755416/pexels-photo-755416.jpeg)
+**Author:** AudioCraft  
+**Price:** $29
+"""
+		status = 'Launched'
+	[projects.6]
+		title = 'AR Business Card Template'
+		url = 'https://example.com'
+		description = """
+![Phone with AR projection](https://images.pexels.com/photos/9783812/pexels-photo-9783812.jpeg)
+**Author:** AugmentWorks  
+**Price:** $59
+"""
+		status = 'Beta'
