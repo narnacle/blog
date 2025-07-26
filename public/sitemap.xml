@@ -2,91 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/donate/</loc>
+    <loc>https://www.narnacle.com/</loc>
+    <lastmod>2025-07-27T00:47:49+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.narnacle.com/posts/</loc>
+    <lastmod>2025-07-27T00:47:49+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.narnacle.com/donate/</loc>
     <lastmod>2025-07-20T16:30:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-20T16:30:00+03:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://www.narnacle.com/tags/linux/</loc>
     <lastmod>2025-07-19T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.narnacle.com/posts/raspberry-pi-w-surveillance-camera/</loc>
     <lastmod>2025-07-19T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</loc>
+    <loc>https://www.narnacle.com/tags/rpi/</loc>
     <lastmod>2025-07-19T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/rpi/</loc>
+    <loc>https://www.narnacle.com/tags/selfhosting/</loc>
     <lastmod>2025-07-19T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/selfhosting/</loc>
+    <loc>https://www.narnacle.com/tags/</loc>
     <lastmod>2025-07-19T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-19T14:00:00+03:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/posts/how-secure-shell-works/</loc>
+    <loc>https://www.narnacle.com/posts/how-secure-shell-works/</loc>
     <lastmod>2025-07-18T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/ssh/</loc>
+    <loc>https://www.narnacle.com/tags/ssh/</loc>
     <lastmod>2025-07-18T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
+    <loc>https://www.narnacle.com/tags/automation/</loc>
     <lastmod>2025-07-17T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>https://www.narnacle.com/tags/programming/</loc>
     <lastmod>2025-07-17T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://www.narnacle.com/tags/python/</loc>
     <lastmod>2025-07-17T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</loc>
+    <loc>https://www.narnacle.com/posts/python-selenium-tutorial-automate-websites-and-create-bots/</loc>
     <lastmod>2025-07-17T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/newsletter/</loc>
+    <loc>https://www.narnacle.com/newsletter/</loc>
     <lastmod>2025-07-16T19:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.narnacle.com/about/</loc>
     <lastmod>2025-07-16T17:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.narnacle.com/categories/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://www.narnacle.com/search/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.narnacle.com/templates/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

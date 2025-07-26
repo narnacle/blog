@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Programming on Narnacle&#39;s Dev Blog</title>
-    <link>http://localhost:1313/tags/programming/</link>
+    <link>https://www.narnacle.com/tags/programming/</link>
     <description>Recent content in Programming on Narnacle&#39;s Dev Blog</description>
     <image>
-      <url>http://localhost:1313/narnacle.png</url>
-      <link>http://localhost:1313/narnacle.png</link>
+      <url>https://www.narnacle.com/narnacle.png</url>
+      <link>https://www.narnacle.com/narnacle.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="https://www.narnacle.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Selenium Tutorial - Automate Websites and Create Bots</title>
-      <link>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</link>
+      <link>https://www.narnacle.com/posts/python-selenium-tutorial-automate-websites-and-create-bots/</link>
       <pubDate>Thu, 17 Jul 2025 14:00:00 +0300</pubDate>
       
-      <guid>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</guid>
+      <guid>https://www.narnacle.com/posts/python-selenium-tutorial-automate-websites-and-create-bots/</guid>
       <description>&lt;p&gt;Automating a web browser with Selenium allows you to control a browser (like Chrome, Firefox, etc.) using Python code. This is useful for tasks like web scraping, testing, or automating repetitive tasks like filling out forms or interacting with web elements.&lt;/p&gt;
 &lt;p&gt;Here’s a basic guide to get you started:&lt;/p&gt;
 &lt;h3 id=&#34;1-set-up-your-environment&#34;&gt;1. &lt;strong&gt;Set up your environment&lt;/strong&gt;&lt;/h3&gt;

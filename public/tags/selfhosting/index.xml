@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Selfhosting on Narnacle&#39;s Dev Blog</title>
-    <link>http://localhost:1313/tags/selfhosting/</link>
+    <link>https://www.narnacle.com/tags/selfhosting/</link>
     <description>Recent content in Selfhosting on Narnacle&#39;s Dev Blog</description>
     <image>
-      <url>http://localhost:1313/narnacle.png</url>
-      <link>http://localhost:1313/narnacle.png</link>
+      <url>https://www.narnacle.com/narnacle.png</url>
+      <link>https://www.narnacle.com/narnacle.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/selfhosting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2025 14:00:00 +0300</lastBuildDate><atom:link href="https://www.narnacle.com/tags/selfhosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi W Surveillance Camera</title>
-      <link>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</link>
+      <link>https://www.narnacle.com/posts/raspberry-pi-w-surveillance-camera/</link>
       <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate>
       
-      <guid>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</guid>
+      <guid>https://www.narnacle.com/posts/raspberry-pi-w-surveillance-camera/</guid>
       <description>&lt;p&gt;Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&amp;rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:&lt;/p&gt;
 &lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;
 &lt;ul&gt;
