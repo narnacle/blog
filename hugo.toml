@@ -1,3 +1,4 @@
+ignorefiles = [ "content/templates" ]
 baseURL = "https://www.narnacle.com/"
 languageCode = "en-us"
 title = "Narnacle's Dev Blog"
