@@ -1,77 +1,362 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Home on LunaR</title>
-    <link>https://www.narnacle.com/</link>
-    <description>Recent content in Home on LunaR</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <managingEditor>narnacle@proton.me</managingEditor>
-    <webMaster>narnacle@proton.me</webMaster>
-    <lastBuildDate>Sun, 20 Jul 2025 16:30:00 +0300</lastBuildDate>
-    <atom:link href="https://www.narnacle.com/index.xml" rel="self" type="application/rss+xml" />
+    <title>Narnacle&#39;s Dev Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Narnacle&#39;s Dev Blog</description>
+    <image>
+      <url>http://localhost:1313/narnacle.png</url>
+      <link>http://localhost:1313/narnacle.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Jul 2025 16:30:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Donate</title>
-      <link>https://www.narnacle.com/donate/</link>
-      <pubDate>Sun, 20 Jul 2025 16:30:00 +0300</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/donate/</guid>
-      <description>&lt;h1 id=&#34;support-my-work&#34;&gt;&lt;strong&gt;Support My Work&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;If you enjoy my articles, consider supporting me through any of the following methods:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;crypto-donations&#34;&gt;&lt;strong&gt;Crypto Donations&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;monero-xmr&#34;&gt;&lt;strong&gt;Monero (XMR)&lt;/strong&gt;:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;85yZDVk4xu1UFBqdHpMzV8T49riVccu65EQJHiNmhQti95Lrgko7unDB6JUsV3jK3Sf2AoQWYxW6ya8PEcjuhpAPFuyqe9a &lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;altcoins&#34;&gt;&lt;strong&gt;Altcoins:&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Donate 250+ altcoins via Trocador:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://trocador.app/en/anonpay/?ticker_to=xmr&amp;amp;network_to=Mainnet&amp;amp;name=Narnacle&amp;amp;donation=True&amp;amp;buttonbgcolor=ff0000&amp;amp;address=85yZDVk4xu1UFBqdHpMzV8T49riVccu65EQJHiNmhQti95Lrgko7unDB6JUsV3jK3Sf2AoQWYxW6ya8PEcjuhpAPFuyqe9a&#34;&gt;Clearnet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion/en/anonpay/?ticker_to=xmr&amp;amp;network_to=Mainnet&amp;amp;name=Narnacle&amp;amp;donation=True&amp;amp;buttonbgcolor=ff0000&amp;amp;address=85yZDVk4xu1UFBqdHpMzV8T49riVccu65EQJHiNmhQti95Lrgko7unDB6JUsV3jK3Sf2AoQWYxW6ya8PEcjuhpAPFuyqe9a&#34;&gt;Tor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;other-methods&#34;&gt;&lt;strong&gt;Other Methods&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;liberapay&#34;&gt;&lt;strong&gt;LiberaPay:&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;buy-me-a-coffee&#34;&gt;&lt;strong&gt;Buy Me a Coffee:&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <title>Raspberry Pi W Surveillance Camera</title>
+      <link>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</link>
+      <pubDate>Sat, 19 Jul 2025 14:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/raspberry-pi-w-surveillance-camera/</guid>
+      <description>&lt;p&gt;Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&amp;rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt; (any model, but newer models will perform better)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Raspberry Pi Camera Module&lt;/strong&gt; (or a compatible USB camera)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Setting up a security camera using a Raspberry Pi is a popular and budget-friendly way to create a DIY surveillance system. The Raspberry Pi can be equipped with a camera module and configured to stream video or take periodic snapshots. Here&rsquo;s a simple guide to help you set up a basic security camera using a Raspberry Pi:</p>
+<h3 id="requirements">Requirements:</h3>
+<ul>
+<li>
+<p><strong>Raspberry Pi</strong> (any model, but newer models will perform better)</p>
+</li>
+<li>
+<p><strong>Raspberry Pi Camera Module</strong> (or a compatible USB camera)</p>
+</li>
+<li>
+<p><strong>MicroSD card</strong> (at least 8GB, preferably 16GB or higher)</p>
+</li>
+<li>
+<p><strong>Raspberry Pi OS</strong> installed on the SD card</p>
+</li>
+<li>
+<p><strong>Power supply</strong> for your Raspberry Pi</p>
+</li>
+<li>
+<p><strong>Wi-Fi</strong> or <strong>Ethernet</strong> connection for network access (if remote access is needed)</p>
+</li>
+<li>
+<p><strong>Optional</strong>: Motion sensors or PIR (Passive InfraRed) sensor for motion detection</p>
+</li>
+</ul>
+<h3 id="basic-steps-to-set-up-the-camera">Basic Steps to Set Up the Camera:</h3>
+<ol>
+<li>
+<p><strong>Install Raspberry Pi OS</strong>:</p>
+<ul>
+<li>If you don’t already have the Raspberry Pi OS on your microSD card, use <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a> to install it. Choose the &ldquo;Raspberry Pi OS&rdquo; option and follow the prompts.</li>
+</ul>
+</li>
+<li>
+<p><strong>Connect the Camera Module</strong>:</p>
+<ul>
+<li>
+<p>Attach the <strong>Raspberry Pi Camera Module</strong> to the <strong>camera port</strong> on the Raspberry Pi. If you&rsquo;re using a USB camera, plug it into one of the USB ports.</p>
+</li>
+<li>
+<p>To enable the camera, run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo raspi-config
+</span></span></code></pre></div><ul>
+<li>
+<p>Navigate to <strong>Interfacing Options</strong> &gt; <strong>Camera</strong> &gt; <strong>Enable</strong>.</p>
+</li>
+<li>
+<p>Reboot the Pi:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Install MotionEye for Video Streaming</strong>:</p>
+<ul>
+<li>
+<p><strong>MotionEye</strong> is a popular software package that allows you to turn your Raspberry Pi into an IP camera with features like motion detection, email alerts, and streaming.</p>
+<p>To install <strong>MotionEye</strong>, run the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install motion
+</span></span><span style="display:flex;"><span>sudo apt install libffi-dev libssl-dev python-dev python-pip
+</span></span><span style="display:flex;"><span>sudo pip install motioneye
+</span></span><span style="display:flex;"><span>sudo mkdir -p /etc/motioneye
+</span></span><span style="display:flex;"><span>sudo cp -R /usr/local/lib/python2.7/dist-packages/motioneye/ /etc/motioneye
+</span></span></code></pre></div><p>Then, enable and start the service:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable motioneye
+</span></span><span style="display:flex;"><span>sudo systemctl start motioneye
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Configure MotionEye</strong>:</p>
+<ul>
+<li>
+<p>Open your browser and go to your Raspberry Pi’s IP address on port 8765. For example:</p>
+<pre tabindex="0"><code>http://&lt;your_pi_ip&gt;:8765
+</code></pre></li>
+<li>
+<p>You&rsquo;ll be prompted with a login screen:</p>
+<ul>
+<li>
+<p><strong>Username</strong>: admin</p>
+</li>
+<li>
+<p><strong>Password</strong>: (leave it blank by default)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Once logged in, you can configure various settings such as resolution, frame rate, motion detection, and storage options (e.g., save video clips or snapshots).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessing Your Camera Remotely</strong>:</p>
+<ul>
+<li>If you want to view the camera stream remotely, make sure the Raspberry Pi is connected to the internet and use either a <strong>local network</strong> or <strong>VPN</strong> to access the camera from outside your home. If you want to use port forwarding, forward port 8765 to your Pi’s IP address.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optional – Add Motion Detection</strong>:</p>
+<ul>
+<li>
+<p>You can configure motion detection using the <strong>MotionEye</strong> interface.</p>
+</li>
+<li>
+<p>Set up email alerts, FTP uploads, or even record video clips when motion is detected.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="optional-enhancements">Optional Enhancements:</h3>
+<ul>
+<li>
+<p><strong>Add PIR Sensors for Motion Detection</strong>:</p>
+<ul>
+<li>For a more energy-efficient setup, you can add a <strong>PIR sensor</strong> to only activate the camera when motion is detected.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cloud Storage</strong>:</p>
+<ul>
+<li>You can configure MotionEye to upload snapshots or videos to cloud storage services like <strong>Dropbox</strong> or <strong>Google Drive</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Night Vision</strong>:</p>
+<ul>
+<li>If you&rsquo;re using the official camera module, consider getting a <strong>Night Vision</strong> camera or add IR lights for nighttime monitoring.</li>
+</ul>
+</li>
+<li>
+<p><strong>Powering the Pi</strong>:</p>
+<ul>
+<li>If you want to place your Raspberry Pi outside or somewhere that doesn&rsquo;t have easy access to power, consider using a <strong>portable power bank</strong> or <strong>solar panel</strong> to keep it running.</li>
+</ul>
+</li>
+</ul>
+<h3 id="possible-alternatives">Possible Alternatives:</h3>
+<ul>
+<li>
+<p><strong>OpenCV</strong>: If you&rsquo;re interested in more advanced features like object detection, face recognition, or analyzing the video feed, you could use <strong>OpenCV</strong> on the Raspberry Pi for these capabilities.</p>
+</li>
+<li>
+<p><strong>Home Assistant</strong>: For integration with home automation, <strong>Home Assistant</strong> offers various ways to add a camera feed and even automate actions based on motion detection.</p>
+</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
-      <title>Newsletter</title>
-      <link>https://www.narnacle.com/newsletter/</link>
-      <pubDate>Wed, 16 Jul 2025 19:00:00 +0300</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/newsletter/</guid>
-      <description>&lt;p&gt;Join my weekly roundup, where I’ll share what I’ve been up to that week, including articles I’ve published, cool finds, tips and tricks and more!&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <title>How Secure Shell Works (SSH)</title>
+      <link>http://localhost:1313/posts/how-secure-shell-works/</link>
+      <pubDate>Fri, 18 Jul 2025 14:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-secure-shell-works/</guid>
+      <description>&lt;p&gt;SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:&lt;/p&gt;
+&lt;h3 id=&#34;1-client-and-server&#34;&gt;1. &lt;strong&gt;Client and Server&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: The system trying to access another system remotely. Usually, you run an SSH client (like &lt;code&gt;ssh&lt;/code&gt; on Unix/Linux or PuTTY on Windows).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: The remote system that the client wants to connect to, which runs an SSH server (like &lt;code&gt;sshd&lt;/code&gt; on Unix/Linux).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-initiating-the-connection&#34;&gt;2. &lt;strong&gt;Initiating the Connection&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).&lt;/li&gt;
+&lt;li&gt;The server then responds by sending its public key to the client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-key-exchange-and-authentication&#34;&gt;3. &lt;strong&gt;Key Exchange and Authentication&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Key Exchange&lt;/strong&gt;: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>SSH (Secure Shell) is a cryptographic network protocol used to securely connect to remote systems over an unsecured network. It’s commonly used for managing servers, accessing network devices, and transferring files securely. Here’s a simple breakdown of how it works:</p>
+<h3 id="1-client-and-server">1. <strong>Client and Server</strong></h3>
+<ul>
+<li><strong>Client</strong>: The system trying to access another system remotely. Usually, you run an SSH client (like <code>ssh</code> on Unix/Linux or PuTTY on Windows).</li>
+<li><strong>Server</strong>: The remote system that the client wants to connect to, which runs an SSH server (like <code>sshd</code> on Unix/Linux).</li>
+</ul>
+<h3 id="2-initiating-the-connection">2. <strong>Initiating the Connection</strong></h3>
+<ul>
+<li>When you try to connect to a remote system using SSH, the client sends a request to the SSH server on a specific port (usually port 22).</li>
+<li>The server then responds by sending its public key to the client.</li>
+</ul>
+<h3 id="3-key-exchange-and-authentication">3. <strong>Key Exchange and Authentication</strong></h3>
+<ul>
+<li>
+<p><strong>Key Exchange</strong>: The client and server exchange encryption keys to establish a secure communication channel. They use algorithms like Diffie-Hellman or Elliptic Curve Diffie-Hellman (ECDH) for this. This ensures that even if someone is eavesdropping on the connection, they won’t be able to decrypt the data.</p>
+</li>
+<li>
+<p><strong>Server Authentication</strong>: The client checks the server’s public key to ensure it is connecting to the right system. This prevents Man-in-the-Middle (MITM) attacks.</p>
+</li>
+<li>
+<p><strong>Client Authentication</strong>: The client must authenticate itself to the server. There are two main ways to do this:</p>
+<ol>
+<li><strong>Password-based authentication</strong>: The client provides a password to authenticate itself.</li>
+<li><strong>Key-based authentication</strong>: The client uses a pair of cryptographic keys—public and private keys. The public key is stored on the server, and the private key remains with the client. The server sends a challenge to the client, which can only be answered correctly by the private key holder, ensuring secure authentication.</li>
+</ol>
+</li>
+</ul>
+<h3 id="4-encrypted-communication">4. <strong>Encrypted Communication</strong></h3>
+<ul>
+<li>Once authentication is successful, both the client and the server agree on a shared symmetric encryption key that will be used for the session.</li>
+<li>From this point onward, all data exchanged between the client and the server is encrypted using this shared key, ensuring confidentiality and integrity.</li>
+</ul>
+<h3 id="5-session-termination">5. <strong>Session Termination</strong></h3>
+<ul>
+<li>Once the task is complete, the client can disconnect from the server, and the SSH session is terminated. The session key used for encryption is discarded, ensuring that future sessions require fresh key exchanges.</li>
+</ul>
+<h3 id="key-components-of-ssh">Key Components of SSH:</h3>
+<ul>
+<li><strong>Public Key Cryptography</strong>: Used for both server authentication and client authentication (when using key pairs).</li>
+<li><strong>Encryption</strong>: Ensures that all communication between the client and server is secure and cannot be easily intercepted or tampered with.</li>
+<li><strong>Integrity</strong>: Ensures that the data is not altered during transmission.</li>
+</ul>
+<h3 id="ssh-use-cases">SSH Use Cases:</h3>
+<ul>
+<li><strong>Remote Login</strong>: The most common use case—logging into a remote system to manage it.</li>
+<li><strong>File Transfer</strong>: Tools like <code>SFTP</code> (SSH File Transfer Protocol) and <code>SCP</code> (Secure Copy Protocol) allow secure file transfer over SSH.</li>
+<li><strong>Port Forwarding</strong>: SSH can be used to forward network traffic securely from one system to another, which is helpful in tunneling.</li>
+<li><strong>Automation/Scripts</strong>: SSH is widely used in scripts and automation for managing remote servers, like in DevOps or system administration.</li>
+</ul>
+<p>In essence, SSH provides a secure way to manage remote systems by using encryption to protect the data being transmitted and ensuring both the client and server are properly authenticated.</p>
+]]></content:encoded>
     </item>
+    
     <item>
-      <title>Code</title>
-      <link>https://www.narnacle.com/blog/code/</link>
-      <pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/blog/code/</guid>
-      <description>&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; microrequests&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mr &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; microrequests&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;init()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# mr is requests&amp;#39; session object and you can use it in similar manner&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;res &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mr&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://httpbin.org/get&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(res&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;text)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gmail&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;time&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;yaml&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;erb&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ARGV&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;length &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  puts &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Syntax: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;#{&lt;/span&gt;__FILE__&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; gmail-username gmail-password&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  exit&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;config &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;YAML&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;load_file(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;#{&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;File&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dirname(__FILE__)&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/config.yaml&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;body &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ERB&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(config&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gmail &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Gmail&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;connect(&lt;span style=&#34;color:#66d9ef&#34;&gt;ARGV&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;ARGV&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# variable &amp;#39;name&amp;#39; is important given it is used in body as well&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; name, email_id &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt; config&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;to&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  puts &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sending to &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;#{&lt;/span&gt;email_id&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  email &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; gmail&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;compose &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    to email_id&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from config&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;from&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    subject config&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;subject&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    body body&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;result(binding)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  email&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;deliver!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gmail&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;logout&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;javascript&#34;&gt;Javascript&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;path&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;merge&lt;/span&gt; } &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;webpack-merge&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;common&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;./webpack.common.js&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;module&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;exports&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;merge&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;common&lt;/span&gt;, {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;mode&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;development&amp;#39;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;devtool&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;inline-source-map&amp;#39;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;devServer&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;writeToDisk&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;contentBase&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;path&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;join&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;__dirname&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;dist&amp;#39;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;publicPath&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;path&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;join&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;__dirname&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;dist&amp;#39;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;compress&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;port&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;8000&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  },&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;elixir&#34;&gt;Elixir&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-elixir&#34; data-lang=&#34;elixir&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;defmodule&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyAppWeb.BearerAuth&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Plug.Conn&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyApp.Account&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; init(options) &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    options&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; call(conn, _options) &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; get_bearer_auth_token(conn) &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        conn &lt;span style=&#34;color:#f92672&#34;&gt;|&amp;gt;&lt;/span&gt; unauthorized()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:error&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        conn &lt;span style=&#34;color:#f92672&#34;&gt;|&amp;gt;&lt;/span&gt; unauthorized()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      auth_token &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        account &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;Account&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_from_token(auth_token)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; account &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          assign(conn, &lt;span style=&#34;color:#e6db74&#34;&gt;:current_account&lt;/span&gt;, account)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          conn &lt;span style=&#34;color:#f92672&#34;&gt;|&amp;gt;&lt;/span&gt; unauthorized()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;defp&lt;/span&gt; get_bearer_auth_token(conn) &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    with [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bearer &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;gt;&lt;/span&gt; auth_token] &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; get_req_header(conn, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;authorization&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      auth_token&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      _ &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:error&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;defp&lt;/span&gt; unauthorized(conn) &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    conn&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&amp;gt;&lt;/span&gt; resp(&lt;span style=&#34;color:#ae81ff&#34;&gt;401&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Unauthorized&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;|&amp;gt;&lt;/span&gt; halt()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;highlight&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;code&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;blockquote&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;border-radius&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;em&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;blockquote&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;var&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;bg&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;secondary);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;border&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;var&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;border) &lt;span style=&#34;color:#66d9ef&#34;&gt;solid&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <title>Python Selenium Tutorial - Automate Websites and Create Bots</title>
+      <link>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</link>
+      <pubDate>Thu, 17 Jul 2025 14:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/python-selenium-tutorial-automate-websites-and-create-bots/</guid>
+      <description>&lt;p&gt;Automating a web browser with Selenium allows you to control a browser (like Chrome, Firefox, etc.) using Python code. This is useful for tasks like web scraping, testing, or automating repetitive tasks like filling out forms or interacting with web elements.&lt;/p&gt;
+&lt;p&gt;Here’s a basic guide to get you started:&lt;/p&gt;
+&lt;h3 id=&#34;1-set-up-your-environment&#34;&gt;1. &lt;strong&gt;Set up your environment&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To use Selenium with Python, you&amp;rsquo;ll need to install the &lt;code&gt;selenium&lt;/code&gt; package and a web driver for the browser you want to control.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Automating a web browser with Selenium allows you to control a browser (like Chrome, Firefox, etc.) using Python code. This is useful for tasks like web scraping, testing, or automating repetitive tasks like filling out forms or interacting with web elements.</p>
+<p>Here’s a basic guide to get you started:</p>
+<h3 id="1-set-up-your-environment">1. <strong>Set up your environment</strong></h3>
+<p>To use Selenium with Python, you&rsquo;ll need to install the <code>selenium</code> package and a web driver for the browser you want to control.</p>
+<h4 id="install-selenium">Install Selenium:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install selenium
+</span></span></code></pre></div><h4 id="download-a-webdriver">Download a WebDriver:</h4>
+<ul>
+<li>
+<p><strong>Chrome</strong>: You need to download <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads">ChromeDriver</a>.</p>
+</li>
+<li>
+<p><strong>Firefox</strong>: You can use <a href="https://github.com/mozilla/geckodriver/releases">geckodriver</a>.</p>
+</li>
+</ul>
+<p>Make sure to place the WebDriver in a location that’s part of your system&rsquo;s <code>PATH</code> or specify the path directly in your script.</p>
+<h3 id="2-basic-example">2. <strong>Basic Example</strong></h3>
+<p>Below is a simple example to open a browser, navigate to a page, and interact with elements:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium <span style="color:#f92672">import</span> webdriver
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.common.by <span style="color:#f92672">import</span> By
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.common.keys <span style="color:#f92672">import</span> Keys
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Set up the WebDriver (assuming using Chrome)</span>
+</span></span><span style="display:flex;"><span>driver <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome(executable_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;/path/to/chromedriver&#39;</span>)  <span style="color:#75715e"># Adjust the path if necessary</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Open a website</span>
+</span></span><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://www.google.com&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Find the search box and type something</span>
+</span></span><span style="display:flex;"><span>search_box <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>find_element(By<span style="color:#f92672">.</span>NAME, <span style="color:#e6db74">&#34;q&#34;</span>)
+</span></span><span style="display:flex;"><span>search_box<span style="color:#f92672">.</span>send_keys(<span style="color:#e6db74">&#34;Selenium Python&#34;</span>)
+</span></span><span style="display:flex;"><span>search_box<span style="color:#f92672">.</span>send_keys(Keys<span style="color:#f92672">.</span>RETURN)  <span style="color:#75715e"># Simulate hitting Enter</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Wait for the results to load (you can also use WebDriverWait for more precision)</span>
+</span></span><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>implicitly_wait(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Perform actions on the result (e.g., click a link)</span>
+</span></span><span style="display:flex;"><span>first_result <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>find_element(By<span style="color:#f92672">.</span>CSS_SELECTOR, <span style="color:#e6db74">&#34;.LC20lb&#34;</span>)
+</span></span><span style="display:flex;"><span>first_result<span style="color:#f92672">.</span>click()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Close the browser after some time</span>
+</span></span><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>quit()
+</span></span></code></pre></div><h3 id="3-important-concepts-in-selenium">3. <strong>Important Concepts in Selenium:</strong></h3>
+<ul>
+<li>
+<p><strong>WebDriver</strong>: The core component to interact with the browser.</p>
+</li>
+<li>
+<p><strong>Locating Elements</strong>: You can find elements on a page using different strategies like <code>find_element_by_id</code>, <code>find_element_by_class_name</code>, <code>find_element_by_xpath</code>, etc. The example above uses <code>By.NAME</code> and <code>By.CSS_SELECTOR</code>.</p>
+</li>
+<li>
+<p><strong>Interactions</strong>: You can simulate actions like <code>send_keys</code> (typing), <code>click()</code>, <code>submit()</code>, etc.</p>
+</li>
+<li>
+<p><strong>Waiting</strong>: Selenium can wait for elements to appear using <code>implicitly_wait()</code>, or for more fine-tuned control, use <code>WebDriverWait</code> and expected conditions.</p>
+</li>
+</ul>
+<h3 id="4-handling-popups-and-alerts">4. <strong>Handling Popups and Alerts:</strong></h3>
+<p>To handle popups or JavaScript alerts, you can use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Accept an alert</span>
+</span></span><span style="display:flex;"><span>alert <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>switch_to<span style="color:#f92672">.</span>alert
+</span></span><span style="display:flex;"><span>alert<span style="color:#f92672">.</span>accept()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Dismiss an alert</span>
+</span></span><span style="display:flex;"><span>alert<span style="color:#f92672">.</span>dismiss()
+</span></span></code></pre></div><h3 id="5-advanced-features">5. <strong>Advanced Features:</strong></h3>
+<ul>
+<li><strong>Taking screenshots</strong>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>save_screenshot(<span style="color:#e6db74">&#34;screenshot.png&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Executing JavaScript</strong>: You can execute custom JavaScript in the browser:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>execute_script(<span style="color:#e6db74">&#34;alert(&#39;Hello, world!&#39;)&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Handling multiple windows</strong>: If your script opens multiple tabs/windows, you can switch between them using <code>driver.switch_to.window(window_handle)</code>.</li>
+</ul>
+<h3 id="6-headless-mode-optional">6. <strong>Headless Mode (Optional)</strong></h3>
+<p>If you don&rsquo;t want the browser to open visibly, you can run the browser in &ldquo;headless&rdquo; mode. For Chrome, it looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.chrome.options <span style="color:#f92672">import</span> Options
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>options <span style="color:#f92672">=</span> Options()
+</span></span><span style="display:flex;"><span>options<span style="color:#f92672">.</span>headless <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>  <span style="color:#75715e"># Run in headless mode</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>driver <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome(executable_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;/path/to/chromedriver&#39;</span>, options<span style="color:#f92672">=</span>options)
+</span></span></code></pre></div><h3 id="7-troubleshooting">7. <strong>Troubleshooting</strong></h3>
+<ul>
+<li>
+<p><strong>Element not found</strong>: Check if the page is fully loaded. Use <code>WebDriverWait</code> for dynamic content.</p>
+</li>
+<li>
+<p><strong>Version mismatch</strong>: Ensure your WebDriver matches your browser version.</p>
+</li>
+</ul>
+]]></content:encoded>
     </item>
-    <item>
-      <title>Language Tests</title>
-      <link>https://www.narnacle.com/blog/language-tests/</link>
-      <pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/blog/language-tests/</guid>
-      <description>&lt;p&gt;Note: Text is from &lt;a href=&#34;https://github.com/huangyz0918/moving&#34;&gt;moving&lt;/a&gt;, which is a good Jekyll theme.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-日本語テスト&#34;&gt;1. 日本語テスト&lt;/h3&gt;&#xA;&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.&lt;/p&gt;&#xA;&lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。&#xA;最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。&#xA;がたを知っないはずも同時に九月をいよいよたありた。&lt;/p&gt;&#xA;&lt;p&gt;もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p&gt;&#xA;&lt;p&gt;From &lt;a href=&#34;http://lipsum.sugutsukaeru.jp/index.cgi&#34;&gt;すぐ使えるダミーテキスト - 日本語 Lorem ipsum.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-繁体中文测试&#34;&gt;2. 繁体中文测试&lt;/h3&gt;&#xA;&lt;p&gt;This is a chinese test post to show you how chinese is displayed.&lt;/p&gt;&#xA;&lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;&#xA;&lt;p&gt;以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？&lt;/p&gt;&#xA;&lt;p&gt;就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。&lt;/p&gt;&#xA;&lt;p&gt;國新故。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;From &lt;a href=&#34;http://www.richyli.com/tool/loremipsum/&#34;&gt;亂數假文產生器 - Chinese Lorem Ipsum.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;3-简体中文测试&#34;&gt;3. 简体中文测试&lt;/h3&gt;&#xA;&lt;p&gt;效育声去本义然空，各值太法心想，场强实地。 题铁习点儿表管少间千，只何政亲织文意部，千影画派证男须。 手反取长风治增非等直难群，连取及天他己事头级，影数弦适把气快目人。 专议以省通引而千个，格则口段度样水热马，地教少务改磨。 包思外心半院应她算斯，市外会快记路又火学，劳如肃它准众丧边。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Overview Post</title>
-      <link>https://www.narnacle.com/blog/overview-post/</link>
-      <pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/blog/overview-post/</guid>
-      <description>&lt;p&gt;Lorem ipsum&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.&lt;/p&gt;&#xA;&lt;h1 id=&#34;sample-heading-1&#34;&gt;Sample heading 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample-heading-2&#34;&gt;Sample heading 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sample-heading-3&#34;&gt;Sample heading 3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;sample-heading-4&#34;&gt;Sample heading 4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;sample-heading-5&#34;&gt;Sample heading 5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;sample-heading-6&#34;&gt;Sample heading 6&lt;/h6&gt;&#xA;&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Post Example with Heading and TOC</title>
-      <link>https://www.narnacle.com/blog/example-with-heading-and-toc/</link>
-      <pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/blog/example-with-heading-and-toc/</guid>
-      <description>&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#table-of-contents&#34;&gt;Table of contents&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-start&#34;&gt;The start&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-middle&#34;&gt;The middle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#the-end&#34;&gt;The end&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo. Vestibulum porta tincidunt tellus, vitae ornare tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc neque, tempor in iaculis non, faucibus et metus. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Very Very Very Long Title And Very Very Very Short Content</title>
-      <link>https://www.narnacle.com/blog/very-very-very-long-title-and-very-very-very-short-content/</link>
-      <pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/blog/very-very-very-long-title-and-very-very-very-short-content/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://www.narnacle.com/about/</link>
-      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/about/</guid>
-      <description>&lt;p&gt;This is an example page!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>https://www.narnacle.com/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>narnacle@proton.me</author>
-      <guid>https://www.narnacle.com/search/</guid>
-      <description>search</description>
-    </item>
+    
   </channel>
 </rss>

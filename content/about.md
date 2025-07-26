@@ -1,8 +1,26 @@
 +++
+date = '2025-07-16T17:00:00+03:00'
 title = 'About'
-date = 2023-01-01T08:00:00-07:00
-draft = false
-layout = 'about'
 +++
 
-This is an example page!
+### Hi there 👋
+I’m **N4rn4cl3**. I created this blog as free alternative to my [medium](https://narnacle.medium.com)
+
+I usually post about interesting topics I stumble upon, particularly in areas like [Linux](../../tags/linux), [Privacy](../../tags/privacy), [Crypto](../../tags/crypto), and [Programming](../../tags/programming).
+
+If you enjoy my content, consider supporting me with a [donation](../../donate).
+
+## Current Projects
+
+Here’s what I'm currently working on:
+
+1. **[This Blog](.)** - Continuously updating with new content.
+
+## Get in Touch
+
+You can reach me on various platforms:
+
+- **Twitter:** `@narnacle`
+- **Email:** `narnacle [at] proton [dot] me`
+- **Shitposting Email:** `narnacle [at] horsefucker [dot] org`
+- **Signal:** `narnacle.69` ([Link](https://signal.me/#eu/YMviNzLjsLhG-_8aMcv9amemvdoBIFpWauDKSJX_AGFh2yOog5hCzZiVzkN2QNiP))
