@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.narnacle.com/</loc>
-    <lastmod>2025-07-27T00:47:49+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.narnacle.com/posts/</loc>
-    <lastmod>2025-07-27T00:47:49+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.narnacle.com/donate/</loc>
     <lastmod>2025-07-20T16:30:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.narnacle.com/</loc>
+    <lastmod>2025-07-20T16:30:00+03:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.narnacle.com/tags/linux/</loc>
+    <lastmod>2025-07-19T14:00:00+03:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.narnacle.com/posts/</loc>
     <lastmod>2025-07-19T14:00:00+03:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
