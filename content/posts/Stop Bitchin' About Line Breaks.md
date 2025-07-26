@@ -4,4 +4,4 @@ description:
 date: "2025-07-27T02:26:53+00:00"
 draft: true
 ---
-Cool... thanks!
+Fine. Have it your way!
