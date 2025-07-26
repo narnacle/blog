@@ -1,3 +1,15 @@
-*.html text eol=lf
-*.js text eol=lf
-*.scss text eol=lf
+# Auto-detect text files and normalize to LF in the repository
+* text=auto eol=lf
+
+# Force shell scripts to use Unix (LF) line endings
+*.sh     text eol=lf
+
+# Force Windows batch scripts to use CRLF
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+
+# Treat binary files as binary (prevent modification or diff noise)
+*.png    binary
+*.jpg    binary
+*.gz     binary
+*.zip    binary
