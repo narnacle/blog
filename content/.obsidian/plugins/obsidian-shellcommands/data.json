@@ -26,7 +26,7 @@
     {
       "id": "s6n5lh8zvz",
       "platform_specific_commands": {
-        "default": "scp /some/file zh5655@zh5655.rsync.net:"
+        "default": "cd C:\\Users\\Nándor\\Documents\\Narnacle\\; hugo; git add .; git commit -m \"new\"; git push -u origin main"
       },
       "shells": {},
       "alias": "",
