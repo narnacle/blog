@@ -1,7 +1,7 @@
 ---
 date: '2025-11-15T19:55:00+02:00'
 draft: false
-title: 'After Meaning Breaks: On Discovering Life’s Silence and Learning to Answer It'
+title: 'Life Has No Meaning—and That’s the Best News You’ll Ever Get'
 ---
 “*După ce am descoperit că viaţa nu are nici un sens, nu ne rămâne altceva de făcut decât să-i dăm un sens.*”
 — Lucian Blaga

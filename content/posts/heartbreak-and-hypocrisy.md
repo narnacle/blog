@@ -1,7 +1,7 @@
 ---
 date: '2025-12-22T21:55:20+02:00'
 draft: false
-title: 'Heartbreak and Hypocrisy'
+title: 'Heartbreak Isn’t a Problem to Fix—and That’s the Point'
 ---
 I have spent enough nights staring at the ceiling with my phone face down on the bed to know the choreography of modern heartbreak advice by heart. First comes the injunction to “focus on yourself,” as if the self were a neglected houseplant that simply needs watering. Then the call to “cut them off completely,” spoken with the zeal of a detox guru. After that, the monetized compassion: courses, podcasts, threads, coaches, and neatly captioned reels promising closure in ten steps. I have followed these instructions with the earnestness of a good student, and I have watched them fail me with the consistency of a bad superstition. What troubles me now is not only that the advice often fails, but that it fails in a hypocritical way—asking us to be both human and not human at the same time.
 

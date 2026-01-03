@@ -1,10 +1,8 @@
 ---
 date: '2025-12-24T21:38:40+02:00'
 draft: false
-title: "A Christmas Meditation on Christianity’s Lost Nerve"
+title: "Modern Christianity Would Have Rejected the Christ It Celebrates"
 ---
-## Or: What Happened Between the Manger and the Megachurch
-
 I write this at Christmastime, when the air itself seems thick with religious language. The word *Christ* is everywhere—on storefronts, playlists, political speeches, charity campaigns, and social media posts—yet I cannot escape the feeling that the figure whose birth we celebrate has never been more absent. Christmas has become a season of Christian noise and Christian branding, but rarely of Christian danger. And if there is one thing that early Christianity unquestionably was, it was dangerous.
 
 This essay is not written from outside Christianity, nor from a posture of smug secular superiority. I write as someone who cannot shake Jesus of Nazareth, who still finds the Gospels unsettling, luminous, and infuriating in equal measure. I write as someone who suspects that if Jesus were to walk into most modern Christian spaces—especially during Christmas—He would be politely ignored at best, and quietly escorted out at worst.
