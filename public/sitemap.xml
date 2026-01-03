@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/philosophical-christmas-blog/</loc>
+    <loc>https://blog.nandorr.com/posts/philosophical-christmas-blog/</loc>
     <lastmod>2025-12-24T21:38:40+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://blog.nandorr.com/posts/</loc>
     <lastmod>2025-12-24T21:38:40+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.nandorr.com/</loc>
     <lastmod>2025-12-24T21:38:40+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/heartbreak-and-hypocrisy/</loc>
+    <loc>https://blog.nandorr.com/posts/heartbreak-and-hypocrisy/</loc>
     <lastmod>2025-12-22T21:55:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://blog.nandorr.com/about/</loc>
     <lastmod>2025-11-15T20:07:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/life-and-its-meaning/</loc>
+    <loc>https://blog.nandorr.com/posts/life-and-its-meaning/</loc>
     <lastmod>2025-11-15T19:55:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.nandorr.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.nandorr.com/tags/</loc>
   </url>
 </urlset>
